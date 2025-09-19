@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Core rules
+    avoid_print: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_constructors_in_immutables: true
+    
+    # Style rules
+    always_declare_return_types: true
+    always_specify_types: false
+    prefer_single_quotes: true
+    sort_constructors_first: true
+    sort_pub_dependencies: true
+    
+    # Documentation
+    public_member_api_docs: false
+    
+    # Error prevention
+    avoid_returning_null_for_void: true
+    cancel_subscriptions: true
+    close_sinks: true
