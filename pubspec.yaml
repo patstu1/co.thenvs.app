@@ -1,0 +1,91 @@
+name: nvs_app
+description: NVS (MeatUp) - A next-gen gay social app with grid browsing, live maps, AI matchmaking, and live cam rooms.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  firebase_messaging: ^14.7.10
+  firebase_analytics: ^10.7.4
+
+  # UI & Navigation
+  cupertino_icons: ^1.0.6
+  go_router: ^12.1.3
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Location & Maps
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+  # Media & Communication
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  video_player: ^2.8.1
+  camera: ^0.10.5+5
+  agora_rtc_engine: ^6.3.0
+
+  # Data & Networking
+  dio: ^5.3.4
+  json_annotation: ^4.8.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Utilities
+  permission_handler: ^11.1.0
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.2
+  package_info_plus: ^4.2.0
+  device_info_plus: ^9.1.1
+  connectivity_plus: ^5.0.2
+
+  # AI & ML
+  tflite_flutter: ^0.10.4
+
+  # Security
+  crypto: ^3.0.3
+  local_auth: ^2.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+  custom_lint: ^0.5.7
+  riverpod_lint: ^2.3.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
