@@ -1,0 +1,41 @@
+# Flutter related
+**/flutter_driver.log
+**/*.log
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/lib/generated_plugin_registrant.dart
+
+# IDE related
+**/.idea/
+**/.vscode/
+**/*.iml
+
+# Build artifacts
+**/build/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/ios/build/
+**/web/build/
+
+# Dependencies
+**/node_modules/
+**/pubspec.lock
+
+# OS generated
+**/.DS_Store
+**/Thumbs.db
+
+# Temporary files
+**/tmp/
+**/*.tmp
+**/*.temp
+
+# Firebase
+**/.firebase/
+**/firebase_options.dart
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.production

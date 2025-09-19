@@ -1,0 +1,41 @@
+name: nvs_app
+description: NVS (MeatUp) - A next-gen gay social app with grid browsing, live maps, AI matchmaking, and live cam rooms.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.4.0
+  image_picker: ^1.0.2
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
+  cloud_firestore: ^4.9.1
+  firebase_storage: ^11.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
