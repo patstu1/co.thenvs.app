@@ -1,0 +1,9 @@
+build/
+.dart_tool/
+ios/Pods/
+ios/Flutter/
+android/app/build/
+macos/Runner/
+*.zip
+*.framework
+*.dSYM
